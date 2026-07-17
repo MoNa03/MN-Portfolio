@@ -1,0 +1,20 @@
+@theme {
+
+  --color-background: #020617;
+  --color-surface: #0F172A;
+  --color-surface-2: #111827;
+
+  --color-primary: #06B6D4;
+  --color-primary-light: #67E8F9;
+
+  --color-secondary: #3B82F6;
+
+  --color-success: #10B981;
+
+  --color-text: #F8FAFC;
+  --color-muted: #94A3B8;
+
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+}
