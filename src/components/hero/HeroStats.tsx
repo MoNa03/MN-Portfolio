@@ -11,9 +11,6 @@ export default function HeroStats() {
       viewport={{ once: true }}
       className="mt-32 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"
     >
-    <div className="mt-32 border-t border-slate-800 pt-16">
-    <HeroStats />
-    </div>
       {hero.stats.map((item) => (
         <StatCard
           key={item.label}
