@@ -31,7 +31,7 @@ export default function HeroPhoto() {
 
           <div className="mt-4 flex items-center gap-2 text-sm text-slate-500">
             <MapPin size={16} />
-            Melbourne, Australia
+            Munich, Germany
           </div>
 
           <div className="mt-6 inline-flex rounded-full bg-emerald-500/10 px-4 py-2 text-sm text-emerald-400">

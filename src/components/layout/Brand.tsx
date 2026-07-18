@@ -1,21 +1,24 @@
+import logo from "../../assets/mn-logo.png";
 import profile from "../../data/profile";
 
 export default function Brand() {
   return (
-    <div className="flex items-center gap-4">
-      <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-400 to-blue-600 text-lg font-bold text-white shadow-lg">
-        MN
-      </div>
+    <a href="#" className="flex items-center gap-4">
+      <img
+        src={logo}
+        alt={profile.name}
+        className="h-20 w-20 object-contain transition duration-300 hover:scale-105"
+      />
 
       <div>
-        <h2 className="text-lg font-semibold text-white">
+        <h1 className="text-xl font-bold text-white">
           {profile.name}
-        </h2>
+        </h1>
 
         <p className="text-sm text-slate-400">
           {profile.title}
         </p>
       </div>
-    </div>
+    </a>
   );
 }

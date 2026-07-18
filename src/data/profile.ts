@@ -5,7 +5,7 @@ const profile = {
 
   roles: [
     "Project Manager (PMP)® ",
-    "Software Engineer",
+    "Software Engineering",
     "AI Practitioner",
   ],
 

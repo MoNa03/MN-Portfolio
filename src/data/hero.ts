@@ -15,8 +15,8 @@ const hero: HeroData = {
   badges: [
     "PMP®",
     "Agile",
-    "Azure",
-    "React",
+    "Autosar",
+    "Embedded",
     "AI",
     "Leadership",
   ],
@@ -27,7 +27,7 @@ const hero: HeroData = {
       label: "Years Experience",
     },
     {
-      value: "50+",
+      value: "20+",
       label: "Projects Delivered",
     },
     {

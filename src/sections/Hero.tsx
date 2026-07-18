@@ -5,6 +5,7 @@ import HeroContent from "../components/hero/HeroContent";
 import HeroPhoto from "../components/hero/HeroPhoto";
 import HeroStats from "../components/hero/HeroStats";
 import BackgroundEffects from "../components/hero/BackgroundEffects";
+import ScrollIndicator from "../components/hero/ScrollIndicator";
 
 export default function Hero() {
   return (
@@ -24,6 +25,7 @@ export default function Hero() {
         </div>
          <HeroStats />
       </Container>
+      <ScrollIndicator />
     </Section>
   );
 }

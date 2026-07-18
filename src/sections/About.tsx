@@ -1,7 +1,14 @@
+import Section from "../components/ui/Section";
+import Container from "../components/ui/Container";
+
 export default function About() {
   return (
-    <section className="py-24">
-      <h2 className="text-4xl font-bold">About</h2>
-    </section>
+    <Section id="about">
+      <Container>
+        <h2 className="text-4xl font-bold text-white">
+          About
+        </h2>
+      </Container>
+    </Section>
   );
 }
