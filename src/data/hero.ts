@@ -15,9 +15,9 @@ const hero: HeroData = {
   badges: [
     "PMP®",
     "Agile",
-    "Autosar",
-    "Embedded",
+    "Automotive",
     "AI",
+    "Embedded",
     "Leadership",
   ],
 
