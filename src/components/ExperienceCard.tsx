@@ -1,9 +1,11 @@
+import Badge from "./ui/Badge";
+
 import { motion } from "framer-motion";
 import {
   CalendarDays,
   MapPin,
-  Building2,
-  CheckCircle2,
+  //Building2,
+  //CheckCircle2,
 } from "lucide-react";
 
 import Card from "./ui/Card";
@@ -23,23 +25,36 @@ export default function ExperienceCard({
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
     >
-      <Card className="p-8 transition-all duration-300 hover:border-cyan-400/30 hover:shadow-xl hover:shadow-cyan-500/5">
-
+      <Card
+        className="
+            p-1
+            transition-all
+            duration-500
+            hover:-translate-y-1
+            hover:border-cyan-400/30
+            hover:shadow-2xl
+            hover:shadow-cyan-500/10
+        "
+        >
         {/* Header */}
 
         <div className="mb-6 flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
 
           <div>
-            <h3 className="text-3xl font-bold text-white">
+            <h3 className="text-2xl font-bold text-white">
               {experience.role}
             </h3>
 
-            <div className="mt-2 flex flex-wrap items-center gap-4 text-slate-400">
+            <p className="mt-1 text-xl font-semibold text-cyan-400">
+                {experience.company}
+            </p>
 
-              <div className="flex items-center gap-2">
+            <div className="mt-1 flex flex-wrap items-center gap-4 text-slate-400">
+
+              {/* <div className="flex items-center gap-2">
                 <Building2 size={16} />
                 {experience.company}
-              </div>
+              </div>*/}
 
               <div className="flex items-center gap-2">
                 <CalendarDays size={16} />
@@ -54,20 +69,18 @@ export default function ExperienceCard({
             </div>
           </div>
 
-          <span className="rounded-full bg-cyan-500/10 px-4 py-2 text-sm font-medium text-cyan-400">
-            {experience.domain}
-          </span>
+          <Badge>{experience.domain}</Badge>
 
         </div>
 
         {/* Summary */}
 
-        <p className="mb-8 leading-8 text-slate-400">
+        <p className="mb-2 leading-8 text-slate-400">
           {experience.summary}
         </p>
-
+ 
         {/* Achievements */}
-
+{/*
         <div className="mb-8">
 
           <h4 className="mb-4 text-lg font-semibold text-white">
@@ -93,9 +106,9 @@ export default function ExperienceCard({
           </div>
 
         </div>
-
+*/}
         {/* Business Impact */}
-
+{/* 
         <div className="mb-8">
 
           <h4 className="mb-4 text-lg font-semibold text-white">
@@ -116,7 +129,7 @@ export default function ExperienceCard({
         </div>
 
         {/* Technologies */}
-
+{/* 
         <div>
 
           <h4 className="mb-4 text-lg font-semibold text-white">
@@ -125,17 +138,16 @@ export default function ExperienceCard({
 
           <div className="flex flex-wrap gap-3">
             {experience.technologies.map((tech) => (
-              <span
-                key={tech}
-                className="rounded-full border border-cyan-500/20 bg-cyan-500/10 px-4 py-2 text-sm text-cyan-300"
-              >
+            <Badge key={tech}>
                 {tech}
-              </span>
+            </Badge>
             ))}
           </div>
 
+        <div className="my-8 border-t border-white/10" />
+        
         </div>
-
+*/}
       </Card>
     </motion.div>
   );

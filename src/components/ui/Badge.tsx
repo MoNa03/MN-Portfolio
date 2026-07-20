@@ -1,14 +1,23 @@
 import type { ReactNode } from "react";
 
-type BadgeProps = {
+interface BadgeProps {
   children: ReactNode;
-};
+  variant?: "primary" | "secondary";
+}
 
 export default function Badge({
   children,
+  variant = "primary",
 }: BadgeProps) {
+  const styles =
+    variant === "primary"
+      ? "border-cyan-500/20 bg-cyan-500/10 text-cyan-300"
+      : "border-slate-700 bg-slate-900 text-slate-300";
+
   return (
-    <span className="inline-flex items-center rounded-full border border-cyan-400/30 bg-cyan-500/10 px-4 py-1 text-sm font-medium text-cyan-300">
+    <span
+      className={`inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium tracking-wide ${styles}`}
+    >
       {children}
     </span>
   );
