@@ -19,7 +19,7 @@ export default function BackgroundEffects() {
           h-[500px]
           w-[500px]
           rounded-full
-          bg-cyan-500/15
+          bg-cyan-500/5
           blur-[90px]
         "
       />
@@ -40,7 +40,7 @@ export default function BackgroundEffects() {
           h-[420px]
           w-[420px]
           rounded-full
-          bg-blue-600/10
+          bg-blue-600/4
           blur-[120px]
         "
       />
