@@ -6,6 +6,7 @@ export interface HeroStat {
 export interface HeroButtons {
   primary: string;
   secondary: string;
+  third: string;
 }
 
 export interface HeroData {

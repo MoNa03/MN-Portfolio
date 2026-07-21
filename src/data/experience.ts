@@ -25,7 +25,7 @@ const experience: Experience[] = [
 
     role: "Project Manager",
 
-    duration: "Feb 2023 – Present",
+    duration: "Feb 2023 – Sep 2026",
 
     location: "Munich, Germany",
 

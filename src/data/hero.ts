@@ -1,13 +1,13 @@
 import type { HeroData } from "../types/hero";
 
 const hero: HeroData = {
-  eyebrow: "Technical Program Manager",
+  eyebrow: "Driving Intelligent Software Delivery",
 
   headline:
     "Building Intelligent Software That Delivers Business Value",
 
   subheadline:
-    "Leading software delivery through strategic project management, engineering excellence, and AI innovation.",
+    "Leading software delivery through strategic project management, engineering excellence, and AI practitioner.",
 
   description:
     "I partner with organizations to deliver scalable software products, lead high-performing teams, and apply AI to solve complex business challenges.",
@@ -15,8 +15,8 @@ const hero: HeroData = {
   badges: [
     "PMP®",
     "Agile",
-    "Automotive",
     "AI",
+    "Automotive",
     "Embedded",
     "Leadership",
   ],
@@ -42,7 +42,8 @@ const hero: HeroData = {
 
   buttons: {
     primary: "Explore My Journey",
-    secondary: "Download Resume",
+    secondary: "Let's Connect",
+    third: "Download Resume",
   },
 };
 
