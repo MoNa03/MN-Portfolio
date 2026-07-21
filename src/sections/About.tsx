@@ -7,10 +7,11 @@ import LeadershipQuote from "../components/LeadershipQuote";
 
 export default function About() {
   return (
-    <Section
-      id="about"
-      className="relative overflow-hidden py-32"
-    >
+      <Section
+        id="about"
+        spacing="md"
+        className="bg-slate-900/20"
+      >
       {/* Background Glow */}
 
       <div className="absolute left-1/2 top-20 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-cyan-500/5 blur-3xl" />

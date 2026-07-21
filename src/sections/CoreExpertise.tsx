@@ -52,16 +52,20 @@ const highlights = [
 
 export default function CoreExpertise() {
   return (
-    <Section className="py-28">
+    <Section
+      id="expertise"
+      spacing="md"
+      //className="bg-slate-950"
+    >
       <Container>
 
-        <div className="mx-auto mb-20 max-w-3xl text-center">
+        <div className="mx-auto mb-20 max-w-2xl text-center">
 
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
             CORE EXPERTISE
           </p>
 
-          <h2 className="mb-6 text-5xl font-bold">
+          <h2 className="mb-2 text-5xl font-bold">
             Delivering Technology
             <span className="block text-cyan-400">
               with Business Impact

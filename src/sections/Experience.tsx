@@ -4,7 +4,11 @@ import ExperienceTimeline from "../components/ExperienceTimeline";
 
 export default function Experience() {
   return (
-    <Section id="experience" className="py-28">
+    <Section
+      id="experience"
+      spacing="md"
+      className="bg-slate-900/20"
+    >
       <Container>
 
         <div className="mx-auto mb-20 max-w-3xl text-center">

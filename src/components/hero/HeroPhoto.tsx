@@ -35,7 +35,7 @@ export default function HeroPhoto() {
           </div>
 
           <div className="mt-6 inline-flex rounded-full bg-emerald-500/10 px-4 py-2 text-sm text-emerald-400">
-            ● Open to Leadership Opportunities
+            ● Open to Leadership Opportunities - GER / IN / UK / USA
           </div>
         </div>
       </Card>

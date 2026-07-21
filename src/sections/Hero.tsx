@@ -10,7 +10,10 @@ import background from "../assets/backgrounds/engineering-blueprint.png";
 
 export default function Hero() {
   return (
-      <Section className="relative overflow-hidden pt-32">
+      <Section
+        spacing="lg"
+        className="relative overflow-hidden bg-slate-950 pt-32"
+      >
       {/* Blueprint Background */}
       {/* Engineering Background */}
       <div className="absolute inset-0 z-0">

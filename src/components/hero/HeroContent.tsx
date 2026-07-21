@@ -13,11 +13,11 @@ export default function HeroContent() {
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.7 }}
     >
-      <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
+      <p className="mb-10 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
         {hero.eyebrow}
       </p>
 
-      <h1 className="mb-8 text-5xl font-bold leading-tight text-white lg:text-7xl">
+      <h1 className="mb-8 text-5xl font-bold leading-tight text-white lg:text-6xl">
         {hero.headline}
       </h1>
 
@@ -29,7 +29,7 @@ export default function HeroContent() {
         {hero.description}
       </p>
 
-      <p className="mb-8 text-lg text-slate-500">
+      <p className="mb-8 text-lg font-bold text-slate-500">
         {profile.roles.join(" • ")}
       </p>
 

@@ -10,7 +10,7 @@ export default function ScrollIndicator() {
       transition={{ delay: 1.5 }}
       className="mt-16 flex flex-col items-center gap-2 text-slate-400 hover:text-cyan-400"
     >
-      <span className="text-xs uppercase tracking-[0.3em]">
+      <span className="text-xs uppercase tracking-[0.9em]">
         Scroll
       </span>
 
