@@ -41,7 +41,7 @@ const hero: HeroData = {
   ],
 
   buttons: {
-    primary: "Explore My Work",
+    primary: "Explore My Journey",
     secondary: "Download Resume",
   },
 };

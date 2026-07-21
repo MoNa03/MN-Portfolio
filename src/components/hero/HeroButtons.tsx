@@ -5,10 +5,10 @@ import { ArrowRight, Download } from "lucide-react";
 
 export default function HeroButtons() {
   return (
-    <div className="mt-10 flex flex-wrap gap-4">
+    <div className="mt-10 flex flex-wrap gap-8">
       <Button>
-        <ArrowRight className="mr-2 h-5 w-5" />
         {hero.buttons.primary}
+        <ArrowRight className="mr-2 h-5 w-5" />
       </Button>
 
       <Button variant="secondary" href={profile.resume}>
