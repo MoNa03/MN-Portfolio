@@ -1,0 +1,14 @@
+{
+  "name": "Mohan Nagaraj",
+  "short_name": "MN Portfolio",
+  "theme_color": "#020617",
+  "background_color": "#020617",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}

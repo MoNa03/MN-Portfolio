@@ -6,7 +6,7 @@ import HeroPhoto from "../components/hero/HeroPhoto";
 import HeroStats from "../components/hero/HeroStats";
 import BackgroundEffects from "../components/hero/BackgroundEffects";
 import ScrollIndicator from "../components/hero/ScrollIndicator";
-import background from "../assets/backgrounds/engineering-blueprint.png";
+import background from "../assets/backgrounds/engineering-blueprint.webp";
 
 export default function Hero() {
   return (

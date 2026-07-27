@@ -23,7 +23,7 @@ export default function AboutSummary() {
       </div>
 
       <p className="text-lg leading-9 text-slate-400">
-        I am a Technical Program Manager with over 18 years of experience
+        I am a Technical Program Manager with over 16 years of experience
         delivering enterprise, automotive, and embedded software solutions.
         My expertise spans software engineering, technical program management,
         cloud transformation, and AI-driven innovation.
