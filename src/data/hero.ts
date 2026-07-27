@@ -18,6 +18,7 @@ const hero: HeroData = {
     "AI",
     "Automotive",
     "Embedded",
+    "Robotics",
     "Leadership",
   ],
 

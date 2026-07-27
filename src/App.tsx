@@ -7,6 +7,7 @@ import About from "./sections/About";
 import CoreExpertise from "./sections/CoreExpertise";
 import Experience from "./sections/Experience";
 import Contact from "./sections/Contact";
+import LeadershipImpact from "./sections/LeadershipImpact";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <CoreExpertise />
 
         <Experience />
+
+        <LeadershipImpact />
 
         <Contact />
       </main>
