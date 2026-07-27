@@ -13,7 +13,7 @@ const technologies: Technology[] = [
   // Automotive
   { name: "AUTOSAR", category: "Automotive" },
   { name: "ISO 26262", category: "Automotive" },
-  { name: "ISO21434", category: "Automotive" },
+  { name: "ISO 21434", category: "Automotive" },
 
   // Embedded
   { name: "Embedded Systems", category: "Embedded" },
