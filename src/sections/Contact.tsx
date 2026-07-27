@@ -12,7 +12,6 @@ export default function Contact() {
     <Section
       id="contact"
       spacing="sm"
-      className="bg-slate-900/20"
     >
       <Container>
 

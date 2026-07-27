@@ -24,7 +24,7 @@ const hero: HeroData = {
 
   stats: [
     {
-      value: "18+",
+      value: "16+",
       label: "Years Experience",
     },
     {

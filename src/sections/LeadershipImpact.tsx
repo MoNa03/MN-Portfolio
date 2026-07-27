@@ -48,14 +48,15 @@ export default function LeadershipImpact() {
               <LeadershipCard leadership={item} />
             </motion.div>
           ))}
+        <div className="mx-auto mt-1 mb-1 h-px w-320 bg-gradient-to-r from-transparent via-cyan-400/50 to-transparent" />  
         </div>
-            <div className="mt-14 text-center">
-                <p className="text-sm text-slate-500">
+            <div className="mt-8 text-center">
+                <p className="text-l text-slate-500">
                     These leadership capabilities have been developed through
                     global automotive software programs, cross-functional
                     collaboration, and continuous engineering improvement.
                 </p>
-                </div>
+            </div>
       </Container>
     </Section>
   );

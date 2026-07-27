@@ -12,11 +12,15 @@ export interface Technology {
 const technologies: Technology[] = [
   // Automotive
   { name: "AUTOSAR", category: "Automotive" },
-  { name: "ISO 26262 & ISO21434", category: "Automotive" },
+  { name: "ISO 26262", category: "Automotive" },
+  { name: "ISO21434", category: "Automotive" },
 
   // Embedded
   { name: "Embedded Systems", category: "Embedded" },
+  { name: "Micro Controllers", category: "Embedded" },
   { name: "RTOS", category: "Embedded" },
+  { name: "DOORS", category: "Embedded" },
+  { name: "Polarion", category: "Embedded" },
 
   // Programming
   { name: "C", category: "Programming" },
@@ -35,6 +39,8 @@ const technologies: Technology[] = [
 
   // Delivery
   { name: "Agile", category: "Delivery" },
+  { name: "Confluence", category: "Delivery" },
+  { name: "JIRA", category: "Delivery" },
   { name: "Scrum", category: "Delivery" },
   { name: "PMP®", category: "Delivery" },
 ];

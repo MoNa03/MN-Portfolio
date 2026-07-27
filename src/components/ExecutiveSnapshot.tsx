@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const stats = [
   {
-    value: "18+",
+    value: "16+",
     label: "Years Experience",
   },
   {
