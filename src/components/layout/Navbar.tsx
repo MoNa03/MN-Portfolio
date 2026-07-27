@@ -7,11 +7,12 @@ import Container from "../ui/Container";
 import profile from "../../data/profile";
 
 const links = [
-  "About",
-  "Experience",
-  "Projects",
-  "Skills",
-  "Contact",
+  { label: "About", href: "about" },
+  { label: "Expertise", href: "expertise" },
+  { label: "Experience", href: "experience" },
+  { label: "Leadership", href: "leadership" },
+  { label: "Growth", href: "growth" },
+  { label: "Contact", href: "contact" },
 ];
 
 export default function Navbar() {
@@ -43,12 +44,12 @@ export default function Navbar() {
               <nav className="flex flex-col px-6 py-6">
                 {links.map((link) => (
                   <a
-                    key={link}
-                    href={`#${link.toLowerCase()}`}
+                    key={link.href}
+                    href={`#${link.href}`}
                     onClick={() => setIsOpen(false)}
                     className="py-3 text-slate-300 transition hover:text-cyan-400"
                   >
-                    {link}
+                    {link.label}
                   </a>
                 ))}
 
