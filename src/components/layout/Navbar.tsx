@@ -4,7 +4,6 @@ import { AnimatePresence, motion } from "framer-motion";
 
 import Brand from "./Brand";
 import Container from "../ui/Container";
-import profile from "../../data/profile";
 
 const links = [
   { label: "About", href: "about" },
@@ -24,12 +23,34 @@ export default function Navbar() {
 
           <Brand />
 
-          <button onClick={() => setIsOpen(!isOpen)}
+          {/* Desktop Navigation */}
+
+          <nav className="hidden items-center gap-8 md:flex">
+
+            {links.map((link) => (
+
+              <a
+                key={link.href}
+                href={`#${link.href}`}
+                className="text-sm font-medium text-slate-300 transition hover:text-cyan-400"
+              >
+                {link.label}
+              </a>
+
+            ))}
+
+          </nav>
+
+          {/* Mobile Menu Button */}
+
+          <button
+            onClick={() => setIsOpen(!isOpen)}
             className="rounded-lg p-2 text-slate-300 transition hover:bg-slate-800 md:hidden"
             aria-label="Toggle navigation"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
+
         </div>
 
         <AnimatePresence>
@@ -53,12 +74,7 @@ export default function Navbar() {
                   </a>
                 ))}
 
-                <a
-                  href={profile.resume}
-                  className="mt-4 rounded-xl bg-cyan-500 px-5 py-3 text-center font-semibold text-slate-950 hover:bg-cyan-400"
-                >
-                  Resume
-                </a>
+                
               </nav>
             </motion.div>
           )}
